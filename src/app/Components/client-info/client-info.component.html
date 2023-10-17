@@ -1,1 +1,10 @@
-<p>client-info works!</p>
+<div *ngIf="clientInfo">
+    <p><i class="fa-solid fa-user"> {{ clientInfo?.ip_address }}</i></p>
+    <p><i class="fa-solid fa-wifi"> {{ clientInfo.connection?.organization_name }}</i></p>
+    <div *ngIf="downloadSpeed > 0">
+        <i class="fa-solid fa-download"></i> {{ downloadSpeed | number: '1.2-2' }} Mbps
+    </div>
+    <div *ngIf="uploadSpeed > 0">
+        <i class="fa-solid fa-upload"></i> {{ uploadSpeed | number: '1.2-2' }} Mbps
+    </div>
+</div>
