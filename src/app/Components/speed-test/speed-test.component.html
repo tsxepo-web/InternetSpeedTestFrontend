@@ -1,0 +1,7 @@
+<div>
+    <div class="spinner" *ngIf="downloadInProgress || uploadInProgress">
+        <div class="head"></div>
+    </div>
+    <button class="btn" (click)="startTest()" [disabled]="downloadInProgress || uploadInProgress"
+        *ngIf="!downloadInProgress && !uploadInProgress">Start Test</button>
+</div>
