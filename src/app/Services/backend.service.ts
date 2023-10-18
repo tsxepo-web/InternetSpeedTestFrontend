@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class BackendService {
-  private apiUrl = 'https://speedtestbackend.azurewebsites.net/api/';
+  private apiUrl = 'https://speedtestbackend.azurewebsites.net/api';
 
   constructor(private http: HttpClient) { }
 

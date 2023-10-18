@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
+import { NgChartsModule, NgChartsConfiguration } from 'ng2-charts';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,8 +22,9 @@ import { BarChartComponent } from './Components/bar-chart/bar-chart.component';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    NgChartsModule
   ],
-  providers: [],
+  providers: [{ provide: NgChartsConfiguration, useValue: { generateColors: false}}],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
