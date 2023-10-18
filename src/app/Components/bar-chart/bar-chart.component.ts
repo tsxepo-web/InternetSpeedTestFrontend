@@ -47,7 +47,15 @@ export class BarChartComponent {
         }]
       },
       options: {
-        aspectRatio: 2.5
+        aspectRatio: 2.5,
+        scales: {
+          y: {
+            title: {
+              display:true,
+              text: 'Speed'
+            }
+          }
+        }
       }
     });
   }

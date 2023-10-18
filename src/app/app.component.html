@@ -1,4 +1,18 @@
-<app-speed-test />
-<app-client-info />
-<app-line-chart />
-<app-bar-chart />
+<div class="container">
+    <nav>Home</nav>
+    <main>
+        <app-speed-test />
+    </main>
+    <div id="sidebar">Your Info
+        <app-client-info />
+    </div>
+    <div id="content1">Speed vs Time
+        <app-line-chart />
+    </div>
+    <div id="content2">ISP Per Location
+        <app-bar-chart />
+    </div>
+    <footer>
+        <div><a href="https://github.com/tsxepo-web/InternetSpeedTestFrontend.git" target="_blank"><i class="fa-brands fa-github"></i></a></div>
+    </footer>
+</div>

@@ -48,15 +48,11 @@ export class LineChartComponent {
             time: {
               unit: 'month',
             },
-            title: {
-              display:true,
-              text: 'Time',
-            },
           },
           y: {
             title: {
               display:true,
-              text: 'Value',
+              text: 'Speed',
             },
           },
         },
