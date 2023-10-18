@@ -2,12 +2,12 @@
 
 <p></p>
 
-![design]()
+![design](https://github.com/tsxepo-web/InternetSpeedTestFrontend/blob/master/src/assets/speedTestFront.drawio.png)
 
 ## URLs
 
-- live url: [Test-Internet-Speed](https://gray-glacier-0556ff10f.3.azurestaticapps.net)
-- backend source code: [myInternetSpeedTest](https://github.com/tsxepo-web/MyInternetSpeed.git)
+- live url: [Test-Internet-Speed](https://kind-ocean-003931610.4.azurestaticapps.net)
+- backend source code: [myInternetSpeedTest](https://github.com/tsxepo-web/InternetSpeedTest-Backend.git)
 
 # About the project
 
